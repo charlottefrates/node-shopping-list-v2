@@ -52,7 +52,7 @@ app.post('/shopping-list', jsonParser, (req, res) => {
 });
 
 //recipe POST addition
-//not working on POSTMAN getting 404 error
+//not working on POSTMAN getting 404 error...
 app.post('/recipes', jsonParser, (req, res) => {
      //ensures that 'name' and 'ingredients' are in request body
      const requiredFields = ['name','ingredients'];
